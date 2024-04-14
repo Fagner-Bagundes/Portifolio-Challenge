@@ -5,8 +5,9 @@ coloque nas sessões indicadas*/
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
+   --cor-de-fundo: #dddadacf;
    --cor-de-link: #000;
+   --cor-de-fundo-2: rgba(130, 238, 211, 0.397);
 }
 
 body {
@@ -41,31 +42,187 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sessão Menu*/
 
 section.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
 
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.estrela{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+.menu__list{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.menu__list__item__contato{
+    display: none;
 }
 
 /*Sessão Title*/
 
 section.title{
+    width: 1136px;
+    margin: auto;
+   
 
 }
 
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.title__container{
+}
+
+.title__bio{
+    font-size: 3.5em;
+}
+
+.title__subsection{
+    font-weight: 100;
+}
+
+.title__network{
+    display: flex;
+    gap: 25px;
+}
+
+.title__network__item{
+    font-weight: bold;
+}
 /*Sessão About*/
 
 section.about{
+    background-color: var(--cor-de-fundo-2);
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    margin: 20px 0px;
 
 }
 
+.skills{
+    margin: 50px;
+}
+
+.skills__title{
+    text-align: center;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills__box{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.conteudo__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.skills__img{
+   text-align: center;
+   width: 70px;
+   text-align: start;
+
+}
+
+.skills__name{
+    width: 95px;
+    padding-left: 20px;
+    text-align: start;
+}
 /*Sessão Hobbies*/
 
 section.hobbies{
-    
+    text-align: center;
+    margin: 50px;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hobbies__box{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.conteuro__hobbies__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.hobbies__img{
+   text-align: center;
+   width: 70px;
+   text-align: start;
+
+}
+
+.hobbies__name{
+    width: 95px;
+    padding-left: 20px;
+    text-align: start;
 }
 
 /* Experiência Acadêmica*/
 
 section.academic{
+    margin: 60px 0px;
+text-align: center;
+background-color: var(--cor-de-fundo-2);
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.academic__courses{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.img_academico{
+    width:300px;
+    height: 250px;
+    border-radius: 20px;
 }
 
 /* experiência*/
