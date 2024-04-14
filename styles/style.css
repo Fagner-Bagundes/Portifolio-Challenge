@@ -5,9 +5,12 @@ coloque nas sessões indicadas*/
 :root{
     /*Insira a variavel das outras cores inspecionando o modelo do figma*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #dddadacf;
-   --cor-de-link: #000;
-   --cor-de-fundo-2: rgba(130, 238, 211, 0.397);
+   --cor-de-fundo: rgb(1, 10, 18);
+   --cor-de-link: #04BF9D;
+   --cor-de-fundo-2:  rgba(5, 111, 150, 0.176);
+   --cor-da-font: white ; 
+   --cor-da-caixa: #172026;
+   --cor-de-titulo: rgb(0, 229, 255);
 }
 
 body {
@@ -17,7 +20,13 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    color: white;
 }
+
+h1,h2{
+    color: var(--cor-de-titulo);
+}
+
 ol, ul,li {
     list-style: none;
 }
@@ -65,6 +74,7 @@ header{
 .menu__list{
     display: flex;
     gap: 15px;
+    font-weight: bolder;
     
 }
 
@@ -85,6 +95,9 @@ section.title{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+}
+.title__profile{
+    margin-bottom: -1.8%;
 }
 
 .title__container{
@@ -111,10 +124,9 @@ section.title{
 section.about{
     background-color: var(--cor-de-fundo-2);
     display: flex;
-    text-align: center;
+    text-align: start;
     padding: 5%;
     margin: 20px 0px;
-
 }
 
 .skills{
@@ -133,12 +145,14 @@ section.about{
 }
 
 .skills__box{
-    width: 150px;
+    width: 200px;
     height: 150px;
-    background-color: white;
     display: flex;
     align-items:center;
     justify-content: center;
+    border-radius: 15px;
+    border: 2px solid var(--cor-de-titulo);
+    color: var(--cor-de-titulo);
 }
 
 .conteudo__box{
@@ -175,12 +189,14 @@ section.hobbies{
 }
 
 .hobbies__box{
-    width: 150px;
+    width: 200px;
     height: 150px;
-    background-color: white;
     display: flex;
     align-items:center;
     justify-content: center;
+    border-radius: 15px;
+    border: 2px solid var(--cor-de-link);
+    color: var(--cor-de-link);
 }
 
 .conteuro__hobbies__box{
