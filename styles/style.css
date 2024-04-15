@@ -257,6 +257,13 @@ flex-direction: column;
 
 }
 
+#inverter__caixa{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
 .experience__img{
     width: 60%;
 }
@@ -266,6 +273,7 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .experience__repo{
@@ -277,6 +285,7 @@ flex-direction: column;
     background-color: var(--cor-de-fundo);
     border: 1px solid var(--cor-de-titulo);
     color: white;
+    cursor: pointer;
 }
 
 .experiencia__botao--demo{
@@ -285,6 +294,7 @@ flex-direction: column;
     background-color: var(--cor-de-titulo);
     border: 1px solid var(--cor-de-titulo);
     color: var(black);
+    cursor: pointer;
 }
 /*Contato*/
 
