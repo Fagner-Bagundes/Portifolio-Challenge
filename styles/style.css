@@ -23,7 +23,6 @@ body {
     line-height: 1;
     color: white;
     overflow-x: hidden;
-    margin: 0px 10px;
 }
 
 h1{
@@ -50,6 +49,11 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
+
+.all{
+    margin: auto;
+    width: 100vw;
+}
 
 /*Sessão Menu*/
 
