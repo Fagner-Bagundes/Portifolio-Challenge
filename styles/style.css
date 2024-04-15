@@ -103,6 +103,7 @@ section.title{
     width: 1350px;
     margin: 0px 60px;
 }
+
 .title__profile{
     margin-left: -70px;
 }
@@ -158,31 +159,29 @@ section.about{
     height: 150px;
     display: flex;
     align-items:center;
-    justify-content: center;
     border-radius: 15px;
     border: 2px solid var(--cor-de-titulo);
     color: var(--cor-de-titulo);
+    justify-content: center;
 }
 
 .conteudo__box{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    width: 50%;
+    justify-content: center;
     align-items: center;
+    padding: 5px;
+
 }
 
 .skills__img{
    text-align: center;
-   width: 70px;
-   text-align: start;
-
+   width: 40px;
+   text-align: center;
 }
 
-.skills__name{
-    width: 95px;
-    padding-left: 20px;
-    text-align: start;
-}
+
 /*Sessão Hobbies*/
 
 section.hobbies{
@@ -198,6 +197,12 @@ section.hobbies{
     flex-wrap: wrap;
 }
 
+.remover{
+    display:none;
+}
+
+
+
 .hobbies__box{
     width: 190px;
     height: 150px;
@@ -207,27 +212,26 @@ section.hobbies{
     border-radius: 15px;
     border: 2px solid var(--cor-de-titulo);
     color: var(--cor-de-titulo);
+    text-align: center;
 }
 
 .conteuro__hobbies__box{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    width: 50%;
+    justify-content: center;
     align-items: center;
+    padding: 5px;
+    text-align: center;
 }
 
 .hobbies__img{
-   text-align: center;
-   width: 70px;
-   text-align: start;
+    text-align: center;
+    width: 40px;
+    text-align: center;
 
 }
 
-.hobbies__name{
-    width: 95px;
-    padding-left: 20px;
-    text-align: start;
-}
 
 /* Experiência Acadêmica*/
 
@@ -288,8 +292,7 @@ section.academic{
     text-align: center;
 }
 
-.experience__repo{
-}
+
 
 .experiencia__botao--repo{
     width: 150px;
@@ -307,6 +310,8 @@ section.academic{
     border: 1px solid var(--cor-de-titulo);
     color: var(black);
     cursor: pointer;
+    font-weight: 600;
+    font-size: 1em;
 }
 /*Contato*/
 
@@ -368,6 +373,7 @@ section.formcontato{
     border: none;
     background-color: var(--cor-de-fundo-2);
     margin: auto;
+    color: white;
 }
 .formcontato__textarea{
     height: 15em;
@@ -376,6 +382,7 @@ section.formcontato{
     background-color: var(--cor-de-fundo-2);
     border: none;
     margin: auto;
+    color: white;
 }
 .formcontato__botao{
     height: 3.6em;
@@ -428,15 +435,11 @@ utilize como referência os breakpoints @media abaixo*/
     margin-right: -50px;
 }
 /*Skills*/
-.skills{
-
-}
 
 /*Hobbies*/
 
 /*Experiências acadêmicas*/
-.experience{
-}
+
 .experience__img{
     width: 100%;
 }
@@ -447,10 +450,7 @@ utilize como referência os breakpoints @media abaixo*/
     margin: 100px 20px;
 }
 
-.
-.experience__info{
 
-}
 
 #inverter__caixa{
     display: flex;
@@ -532,18 +532,30 @@ utilize como referência os breakpoints @media abaixo*/
 /*Skills*/
 
 .skills{
-
+    width: 100%;
+    margin: auto;
 }
 
 .skills__box{
     width: 40%;
 }
 
+.hobbies__box{
+    width: 40%;
+}
+.hobbies__line{
+    width: 100%;
 
-
+    margin: auto;
+}
 /*Hobbies*/
 .hobbies__box{
     width: 40%;
+}
+
+#hobbies{
+    width: 100%;
+    margin: auto;
 }
  
 /*Formação Acadêmica*/
