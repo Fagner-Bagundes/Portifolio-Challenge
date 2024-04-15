@@ -243,10 +243,49 @@ flex-direction: column;
 
 /* experiência*/
 
-section.experience{
+.experience{
+}
+
+.experience__section__title{
+    text-align: center;
+}
+
+.experiencie__box{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
 
 }
 
+.experience__img{
+    width: 60%;
+}
+.experience__info{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience__repo{
+}
+
+.experiencia__botao--repo{
+    width: 150px;
+    height: 30px;
+    background-color: var(--cor-de-fundo);
+    border: 1px solid var(--cor-de-titulo);
+    color: white;
+}
+
+.experiencia__botao--demo{
+    width: 150px;
+    height: 30px;
+    background-color: var(--cor-de-titulo);
+    border: 1px solid var(--cor-de-titulo);
+    color: var(black);
+}
 /*Contato*/
 
 section.formcontato{
@@ -318,7 +357,11 @@ section.formcontato{
 /*footeer*/
 
 section.footer{
-   
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
